@@ -1,5 +1,6 @@
 body {
     background-color: lightgray;
+    text-align-all: center;
 }
 #ACMElogo{
     padding-left:10px;
@@ -9,18 +10,18 @@ body {
 }
 
 nav {
-    border: solid thin black;
+    border: solid thin;
+    border-color: #333333;
     background: #333333;
-    height: 60.8px;
+    height: 55px;
     position: relative;
-    margin: -8px;
+    margin: -10px;
 
 }
 
 nav li {
     display: inline;
 }
-
 
 .pull-left {
     float: left;
@@ -37,7 +38,7 @@ nav ul li a:link, nav ul li a:visited {
     font-weight: bold;
     color: white;
     margin-top: -17.25px;
-    padding: 22px 25px;
+    padding: 17px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
