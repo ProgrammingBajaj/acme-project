@@ -3,38 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="index.css">
+    <script type="text/javascript" src="index.js"></script>
     <link rel="shortcut icon" href="./images/favicon.ico">
-
     <title>Acme Home</title>
 </head>
 <body>
 <header>
-    <!--This is the navigation bar-->
     <nav>
-        <ul class="pull-left">
-            <li><a href="#">Name</a></li>
-            <li><a href="#">Browse</a></li>
-            <input class="form-control" placeholder="Search" type="text">
-            <button type="submit" class="btn btn-default">Go</button>
-            <!-- this is the magnifying glass button
-            <button type="submit" class="btn btn-default"><img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.clker.com%2Fcliparts%2Fv%2FC%2F2%2F9%2FI%2F6%2Fsearch-icon-white-md.png&f=1"
-            height="15" width="15"></button>
-            -->
-        </ul>
-        <ul class="pull-right">
+    <!--This is the navigation bar-->
+    <ul id="nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Programs</a> </li>
+        <li><a href="#">About Us</a></li>
+        <ul style="float: right; list-style-type: none;">
+            <li><a href="#">Login</a></li>
             <li><a href="#">Sign Up</a></li>
-            <li><a href="#">Log In</a></li>
-            <li><a href="#">Help</a></li>
         </ul>
+    </ul>
     </nav>
     <!--End navigation bar-->
-
-    <img id="ACMElogo" src="./Images/ACMELog.png"alt="ACME"style="width:50px;height:50px">
-
-    <h1>ACME</h1>
-    <h2>Cost Tracking System</h2>
 </header>
-    <p>We are a company providing cost-tracking solutions for everyday business.</p>
+
+<!--This is the main page's jumbotron -->
+
+<div class="jumbotron">
+    <div class="container">
+    <h1>Start tracking your company's costs</h1>
+    <p>Manage several projects all at once</p>
+    </div>
+</div>
+
+<!--End of main jumbo-->
+
 </body>
 <footer>
     <a href="http://www.google.com">
@@ -54,3 +54,8 @@
 </footer>
 
 </html>
+
+<!-- this is the magnifying glass button
+            <button type="submit" class="btn btn-default"><img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.clker.com%2Fcliparts%2Fv%2FC%2F2%2F9%2FI%2F6%2Fsearch-icon-white-md.png&f=1"
+            height="15" width="15"></button>
+            -->
