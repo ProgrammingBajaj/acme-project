@@ -48,19 +48,30 @@ li a:hover {
     background-repeat: no-repeat;
     height: 500px;
     margin: 0px;
-    padding: 0px;;
+    padding: 25px;;
 }
 
 .jumbotron h1 {
-    color: #fff;
+    color: white;
     font-size: 48px;
     font-family: 'Shift', sans-serif;
     font-weight: bold;
 }
 
+.font-outline
+{
+    color: lightblue;
+    text-shadow:
+            -0.75px -0.75px 0 #000,
+            0.75px -0.75px 0 #000,
+            -0.75px 0.75px 0 #000,
+            0.75px 0.75px 0 #000;
+}
+
 .jumbotron p {
     font-size: 20px;
     color: #fff;
+    font-weight: bold;
 }
 /*
 nav {
