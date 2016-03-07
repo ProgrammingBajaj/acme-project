@@ -52,7 +52,7 @@ li a:hover {
 }
 
 .jumbotron h1 {
-    color: white;
+    color: white!important;
     font-size: 48px;
     font-family: 'Shift', sans-serif;
     font-weight: bold;
@@ -72,6 +72,14 @@ li a:hover {
     font-size: 20px;
     color: #fff;
     font-weight: bold;
+}
+
+footer p {
+    text-align: center;
+}
+
+.share {
+    display: inline-block;
 }
 /*
 nav {
