@@ -81,6 +81,42 @@ footer p {
 .share {
     display: inline-block;
 }
+
+
+/*This is the styling for the second jumbotron*/
+.discover-jumbotron {
+    background-image: url(https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.zencollegelife.com%2Fblog%2Fwp-content%2Fuploads%2F2009%2F11%2Fmoney.jpg&f=1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1000px;
+    margin: 0px;
+    padding: 25px;;
+}
+
+.discover-jumbotron p {
+    color: white!important;
+    font-size: 48px;
+    font-family: 'Shift', sans-serif;
+    font-weight: bold;
+}
+
+.font-outline {
+    color: lightblue;
+    text-shadow:
+            -0.75px -0.75px 0 #000,
+            0.75px -0.75px 0 #000,
+            -0.75px 0.75px 0 #000,
+            0.75px 0.75px 0 #000;
+}
+
+/*.jumbotron p {
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+}
 /*
 nav {
     border: solid thin;
