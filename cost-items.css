@@ -41,15 +41,16 @@ li a:hover {
     text-decoration: none;
 }
 
-.files {
+#files {
     float:left;
 }
 
-.files ul li{
+#files ul li{
     list-style-type: none;
+    background-color: lightgray;
 }
 
-.files ul li a {
+#files ul li a {
     background-color: #4d94ff;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -63,5 +64,4 @@ li a:hover {
     list-style-type: none;
     border-radius: 3px 3px 3px 3px;
 }
-
 
