@@ -2,9 +2,89 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>ACME Cost Reporting</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" type="text/css" href="CostReporting.css">
+    <script type="text/javascript" src="index.js"></script>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="shortcut icon" href="./">
+    <title>Acme Home</title>
 </head>
 <body>
+<header>
+    <nav>
+        <!--This is the navigation bar-->
+        <ul id="nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a> </li>
+            <li><a href="cost-reporting.html">Cost Reporting</a></li>
+            <li><a href="cost-items.html">Cost Items</a></li>
+            <li><a href="cost-categories.html">Cost Categories</a></li>
+            <ul style="float: right; list-style-type: none;">
+
+                <li><a href="login.html">Login</a></li>
+                <li><a href="sign-up.html">Sign Up</a></li>
+            </ul>
+        </ul>
+    </nav>
+    <!--End navigation bar-->
+</header>
+
+
+
+<!--This is the main page's jumbotron -->
+
+<div class="jumbotron">
+    <div class="container">
+        <h1 class="font-outline">Tracking your company's costs</h1>
+        <p class="font-outline">Manage several projects all at once</p>
+    </div>
+</div>
+
+
+<!--End of main jumbo-->
+
+<!--This is the discover jumbotron -->
+<div id="reporting" class="jumbotron">
+    <h1 id="reportingtitle" class="subtitle">Reports Preview</h1>
+    <div class="charts">
+        <img id="chartone" src="./Images/Reports/ColumnChart.png" >
+        <img id="charttwo" src="./Images/Reports/ExpenseTable.png" alt="Expense Table">
+        <img id="chartthree" src="./Images/Reports/PieChart.png" alt="Pie Chart">
+        <img id="tooltip" src="./Images/tooltip.png">
+    </div>
+    <img src="./Images/Jumbotrons/jumbotron_Analytics.jpg" width="100%">
+    <button class="reportingbtn" type="button"><font color="#bc8f8f"><b>Reporting</b></font></button>
+</div>
+
+<!--End of discover jumbo-->
 
 </body>
+<footer>
+
+    <p>Feel free to <a href="mailto:acm329@utulsa.edu?Subject=Contact Us%20" target="_top">Contact Us</a></p>
+    <div class="share">
+        <a href="http://www.google.com">
+            <img src="Images/google+.png" align="left" height="30" width="30">
+        </a>
+        <a href="http://www.facebook.com">
+            <img src="Images/facebook.png" align="left" height="30" width="30">
+        </a>
+        <a href="http://www.twitter.com">
+            <img src="Images/twitter.png" align="left" height="30" width="30">
+        </a>
+        <a href="http://www.linkedin.com">
+            <img src="Images/linkedin.png" align="left" height="30" width="30">
+        </a>
+    </div>
+    <p>&copy; 2016, ACME</p>
+
+</footer>
+
 </html>
+
+<!-- this is the magnifying glass button
+            <button type="submit" class="btn btn-default"><img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.clker.com%2Fcliparts%2Fv%2FC%2F2%2F9%2FI%2F6%2Fsearch-icon-white-md.png&f=1"
+            height="15" width="15"></button>
+            -->
