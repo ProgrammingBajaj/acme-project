@@ -41,7 +41,7 @@ li a:hover {
     text-decoration: none;
 }
 
-/*this is the styling for the jumbotron*/
+/*this is the styling for the main page's jumbotron*/
 .jumbotron {
     background-image: url("http://www.va.gov/osdbu/images/businessMeeting.jpg");
     background-size: cover;
@@ -81,9 +81,9 @@ footer p {
 .share {
     display: inline-block;
 }
+/* end of styling for the main jumbo*/
 
-
-/*This is the styling for the second jumbotron*/
+/*This is the styling for the discover jumbotron*/
 .discover-jumbotron {
     background-image: url(https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.zencollegelife.com%2Fblog%2Fwp-content%2Fuploads%2F2009%2F11%2Fmoney.jpg&f=1);
     background-size: cover;
@@ -108,6 +108,7 @@ footer p {
             -0.75px 0.75px 0 #000,
             0.75px 0.75px 0 #000;
 }
+/* end of styling for the discover jumbotron*/
 
 /*.jumbotron p {
     font-size: 20px;
