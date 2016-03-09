@@ -33,40 +33,27 @@
         <fieldset>
             <legend>Registration Information</legend>
             <label for="email">E-Mail:</label>
-            <input type="email" name="email" id="email"
-                   autofocus required><br>
+            <input type="email" name="email" id="email"autofocus required><br>
             <label for="password">Password:</label>
-            <input type="password" name="password" id="password"
-                   required pattern="[a-zA-Z0-9]{6,}"
-                   placeholder="At least 6 letters or numbers"><br>
+            <input type="password" name="password" id="password" required pattern="[a-zA-Z0-9]{6,}" placeholder="At least 6 letters or numbers"><br>
             <label for="verify">Verify Password:</label>
-            <input type="password" name="verify" id="verify"
-                   required><br>
-        </fieldset>
-        <fieldset>
-            <legend>Member Information</legend>
+            <input type="password" name="verify" id="verify" required><br>
             <label for="first_name">First Name:</label>
-            <input type="text" name="first_name" id=
-                    "first_name" required><br>
+            <input type="text" name="first_name" id="first_name" required><br>
+            <label for="last_name">Last Name:</label>
+            <input type="text" name="last_name" id="last_name" required><br>
             <label for="state">State:</label>
-            <input type="text" name="state" id="state" required
-                   maxlength="2" placeholder="2-character code"><br>
+            <input type="text" name="state" id="state" required maxlength="2" placeholder="2-character code"><br>
             <label for="zip">ZIP Code:</label>
-            <input type="text" name="zip" id="zip" required
-                   placeholder="5 or 9 digits"
-                   pattern="^\d{5}(-\d{4})?$"
-                   title="Either 5 or 9 digits"><br>
+            <input type="text" name="zip" id="zip" required placeholder="5 or 9 digits" pattern="^\d{5}(-\d{4})?$" title="Either 5 or 9 digits"><br>
             <label for="phone">Phone Number:</label>
-            <input type="tel" name="phone" id="phone"
-                   placeholder="999-999-9999"
-                   pattern="\d{3}[\-]\d{3}[\-]\d{4}"
-                   title="Must be 999-999-999 format"><br>
+            <input type="tel" name="phone" id="phone" placeholder="999-999-9999" pattern="\d{3}[\-]\d{3}[\-]\d{4}" title="Must be 999-999-999 format"><br>
         </fieldset>
         <fieldset id="buttons">
-            <legend>Submit Your Membership</legend>
+            <legend>Submit Your Registration</legend>
             <label>&nbsp;</label>
-            <input type="submit" id="submit" value="Submit">
-            <input type="reset" id="reset" value="Reset Fields"><br>
+            <input class="btn" type="submit" id="submit" value="Submit">
+            <input class="btn" type="reset" id="reset" value="Reset Fields"><br>
         </fieldset>
     </form>
 
