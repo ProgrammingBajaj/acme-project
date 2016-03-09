@@ -2,6 +2,41 @@ body {
     background-color: lightgray;
     text-align-all: center;
 }
+fieldset {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-top: .5em; }
+
+legend {
+    color: #4d94ff;
+    font-weight: bold;
+    font-size: 90%; }
+
+label {
+    float: left;
+    width: 10em;
+    text-align: right; }
+
+input, select {
+    width: 15em;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em; }
+
+input:required, input[required] {
+    border: 2px solid red; }
+
+input:valid {
+    border: 1px solid black; }
+
+input:invalid {
+    box-shadow: none; }
+
+br {
+    clear: both; }
+
+#buttons input {
+    width: 10em; }
+
 #ACMElogo{
     padding-left:10px;
     float:left;
