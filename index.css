@@ -192,17 +192,13 @@ h2{
     opacity:.80;
     font-size:large;
     right:750px;
-    left:650px;
+    left:625px;
     top:800px;
 
 }
 .reportingbtn:hover{
     opacity:1.0;
     filter:alpha(opacity=100);
-}
-@keyframes example {
-    from {background-color:white;}
-    to {background-color: blue;}
 }
 
 
