@@ -56,11 +56,8 @@ li a:hover {
     font-size: 50px;
     font-family: 'Shift', sans-serif;
     font-weight: bold;
-<<<<<<< Updated upstream
     padding-top: 160px;
-=======
-    -webkit-animation: fadeInRightBig;
->>>>>>> Stashed changes
+
 }
 
 .jumbo1  p {
