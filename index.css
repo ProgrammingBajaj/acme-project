@@ -2,14 +2,11 @@ body {
     background-color: lightgray;
     text-align-all: center;
 }
-#ACMElogo{
+#ACMELogo{
     padding-top:0px;
     float:left;
-    width: 50px;
-    height: 50px;
-
-
-
+    width: 150px;
+    height: 150px;
 }
 
 ul {
@@ -45,26 +42,28 @@ li a:hover {
 }
 
 /*this is the styling for the main page's jumbotron*/
-.jumbotron {
+.jumbo1 {
     background-image: url("http://www.1zoom.net/big2/310/331424-svetik.jpg");
-    background-size: cover;
     background-repeat: no-repeat;
+    background-size: cover;
     height: 500px;
-    margin: 0px;
+    width: 100%;
     padding: 25px;;
 }
 
-.jumbotron h1 {
-    color: white;
-    font-size: 48px;
+.jumbo1 h1 {
+    color: #4d94ff;
+    font-size: 50px;
     font-family: 'Shift', sans-serif;
     font-weight: bold;
+    padding-top: 160px;
 }
 
-.jumbotron p {
-    font-size: 20px;
-    color: #fff;
+.jumbo1  p {
+    font-size: 25px;
+    color: #4d94ff;
     font-weight: bold;
+    padding-top: 10px;
 }
 footer{
     position: relative;
@@ -102,10 +101,10 @@ footer p {
 .font-outline {
     color: lightblue;
     text-shadow:
-            -0.75px -0.75px 0 #000,
-            0.75px -0.75px 0 #000,
-            -0.75px 0.75px 0 #000,
-            0.75px 0.75px 0 #000;
+            -0.75px -0.75px 0 black,
+            0.75px -0.75px 0 black,
+            -0.75px 0.75px 0 black,
+            0.75px 0.75px 0 black;
 }
 /*Styling for cost Reporting jumbotron*/
 .jumbotronReporting{
