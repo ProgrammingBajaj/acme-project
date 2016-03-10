@@ -43,7 +43,7 @@ li a:hover {
 
 /*this is the styling for the main page's jumbotron*/
 .jumbo1 {
-    background-image: url("http://www.1zoom.net/big2/310/331424-svetik.jpg");
+    background-image: image("");
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
