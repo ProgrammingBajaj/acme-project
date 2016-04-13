@@ -1,15 +1,13 @@
 body {
     background-color: lightgray;
     text-align-all: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
-#ACMElogo{
+#ACMELogo{
     padding-top:0px;
     float:left;
-    width: 50px;
-    height: 50px;
-
-
-
+    width: 150px;
+    height: 150px;
 }
 
 ul {
@@ -46,26 +44,29 @@ li a:hover {
 }
 
 /*this is the styling for the main page's jumbotron*/
-.jumbotron {
-    background-image: url("http://www.va.gov/osdbu/images/businessMeeting.jpg");
-    background-size: cover;
+.jumbo1 {
+    background-image: url("http://www.1zoom.net/big2/310/331424-svetik.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
     height: 500px;
-    margin: 0px;
+    width: 100%;
     padding: 25px;;
 }
 
-.jumbotron h1 {
-    color: white!important;
-    font-size: 48px;
+.jumbo1 h1 {
+    color: #4d94ff;
+    font-size: 50px;
     font-family: 'Shift', sans-serif;
     font-weight: bold;
+    padding-top: 160px;
+
 }
 
-.jumbotron p {
-    font-size: 20px;
-    color: #fff;
+.jumbo1  p {
+    font-size: 25px;
+    color: #4d94ff;
     font-weight: bold;
+    padding-top: 10px;
 }
 footer{
     position: relative;
@@ -103,10 +104,10 @@ footer p {
 .font-outline {
     color: lightblue;
     text-shadow:
-            -0.75px -0.75px 0 #000,
-            0.75px -0.75px 0 #000,
-            -0.75px 0.75px 0 #000,
-            0.75px 0.75px 0 #000;
+            -0.75px -0.75px 0 black,
+            0.75px -0.75px 0 black,
+            -0.75px 0.75px 0 black,
+            0.75px 0.75px 0 black;
 }
 /*Styling for cost Reporting jumbotron*/
 .jumbotronReporting{
@@ -203,91 +204,4 @@ h2{
 .reportingbtn:hover{
     opacity:1.0;
     filter:alpha(opacity=100);
-}
-
-
-/*for second jumbotron */
-
-/* end of styling for the discover jumbotron*/
-
-/*.jumbotron p {
-    font-size: 20px;
-    color: #fff;
-    font-weight: bold;
-}
-
-
-}
-/*
-nav {
-    border: solid thin;
-    border-color: #333333;
-    background: #333333;
-    height: 55px;
-    position: relative;
-    margin: -10px;
-
-}
-
-nav li {
-    display: inline;
-}
-
-.pull-left {
-    float: left;
-}
-
-.pull-right {
-    float: right;
-    padding-right: 20px;
-}
-
-nav ul li a:link, nav ul li a:visited {
-    background-color: #333333;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: white;
-    margin-top: -17.25px;
-    padding: 17px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    position: relative;
-
-}
-
-nav ul li a:hover, nav ul li a:active {
-    background-color: #4d4d4d;
-}
-
-.btn {
-    border-radius: 0px 5px 5px 0px;
-    color: white;
-    background: #4d4d4d;
-    margin-top: -17.8px;
-    margin-left: -5.5px;
-    padding: 5px 25px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight:bold;
-    outline: none;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    color: #ffffff;
-    border: solid 1px #333333; border-right:0px;
-    background: #4d4d4d;
-    border-top-right-radius: 5px 5px;
-    border-bottom-right-radius: 5px 5px;
-}
-
-.form-control {
-    margin: 0;
-    padding: 5px 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size:14px;
-    color:#666;
-    border:1px solid #333333; border-right:0px;
-    border-top-left-radius: 5px 5px;
-    border-bottom-left-radius: 5px 5px;
-    width: 20em;
 }

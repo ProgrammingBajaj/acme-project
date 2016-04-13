@@ -2,29 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+<<<<<<< HEAD
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="http://bootswatch.com/flatly/bootstrap.min.css" rel="stylesheet" media="screen">
+=======
+    <title>Login</title>
+>>>>>>> origin/master
     <link rel="stylesheet" type="text/css" href="cost-items.css">
-    <script type="text/javascript" src="index.js"></script>
-    <script src="http://code.jquery.com/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
     <link rel="shortcut icon" href="./images/ACMELogo.png">
-    <title>Acme Home</title>
 </head>
-
-<body>
 
 <header>
     <nav>
         <!--This is the navigation bar-->
         <ul id="nav">
             <li><a href="index.html">Home</a></li>
-            <li><a href="products.html">Projects</a> </li>
-            <li><a href="cost-reporting.html">Cost Reporting</a></li>
             <li class="active"><a href="cost-items.html">Cost Items</a></li>
+            <li><a href="cost-reporting.html">Cost Reporting</a></li>
+            <li><a href="products.html">Projects</a> </li>
             <li><a href="cost-categories.html">Cost Categories</a></li>
             <ul style="float: right; list-style-type: none;">
-
                 <li><a href="login.html">Login</a></li>
                 <li><a href="sign-up.html">Sign Up</a></li>
             </ul>
@@ -33,33 +30,36 @@
     <!--End navigation bar-->
 </header>
 
-<div class="categories-explanation">
-    <p>On this page, you and your company can manage whatever cost items you may have.
-        Simply click "create" to create a cost item, "update" to alter a cost item,
-        and "delete" to delete a cost category</p>
+<body>
+<div>
+    <h1 class="h1">Cost Items Recording</h1>
 </div>
-
-<div class="button">
-    <div class=>
-        <button type="button" class="btn btn-primary active">Create</button>
-        <button type="button" class="btn btn-primary active">Update</button>
-        <button type="button" class="btn btn-primary active">Delete</button>
+<div class="form">
+<label for="date">Date:</label>
+<input type="date" name="date" id="date"
+       autofocus><br>
+<label for="project">Project:</label>
+<input type="text" name="project" id="project"><br>
+<label for="cost-category">Cost Category:</label>
+<input type="text" name="cost-category" id="cost-category"><br>
+<label for="cost-item">Cost Item:</label>
+<input type="text" name="cost-item" id="cost-item"><br>
+    <div class="button">
+        <div class="container">
+            <button type="button" class="btn btn-primary active">Add</button>
+            <button type="button" class="btn btn-primary active">Update</button>
+            <button type="button" class="btn btn-primary active">Delete</button>
+        </div>
+    </div>
+    <div class="display">
+        <textarea disabled></textarea>
     </div>
 </div>
 
-<div class="categories">
-    <select name="Category" size="3">
-        <option value="invoice">Image of invoice</option>
-        <option value="cost-category">Link to cost category</option>
-        <option value="project">Link to a project</option>
-       <!-- <option value="outside-building-maintenance">Outside Building Maintenance</option>
-        <option value="drywall-maintenance">Drywall Maintenance</option>
-        <option value="fireplace-maintenance">Fireplace Maintenance</option> -->
-    </select>
-</div>
 
 
 </body>
+
 <footer>
 
     <p>Feel free to <a href="mailto:acm329@utulsa.edu?Subject=Contact Us%20" target="_top">Contact Us</a></p>
@@ -79,9 +79,3 @@
     </div>
     <p><br></br>&copy; 2016, ACME</p>
 </footer>
-
-</html>
-
-<!-- this is the magnifying glass button
-            <button type="submit" class="btn btn-default"><img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.clker.com%2Fcliparts%2Fv%2FC%2F2%2F9%2FI%2F6%2Fsearch-icon-white-md.png&f=1"
-            height="15" width="15"></button>
